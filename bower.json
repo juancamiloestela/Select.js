@@ -1,0 +1,30 @@
+{
+	"name": "selectjs",
+	"version": "1.0.0",
+	"homepage": "https://github.com/juancamiloestela/Select.js",
+	"authors": [
+		
+	],
+	"dependencies": {
+		"jquery": ">=1.6"
+	},
+	"description": "A minimalistic wrapper to skin select elements",
+	"main": [
+		"dist/js/select.js",
+		"dist/css/selectjs.css"
+	],
+	"keywords": [
+		"select",
+		"skin",
+		"ui",
+		"front-end"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
