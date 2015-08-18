@@ -1,15 +1,15 @@
 .selectjs {
   display: inline-block;
   line-height: inherit;
-  background-color: #AAA;
+  background-color: transparent;
   vertical-align: middle;
   cursor: pointer;
   color: #fff;
 }
-.selectjs.focused {
+.selectjs.focused .label {
   background-color: #888;
 }
-.selectjs.hover {
+.selectjs.hover .label {
   background-color: #888;
 }
 .selectjs.disabled {
@@ -23,7 +23,7 @@
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  background-color: inherit;
+  background-color: #AAA;
   line-height: 1.5em;
 }
 .selectjs div.label:after {
@@ -38,4 +38,4 @@
   color: #000;
   color: initial;
 }
-/*# sourceMappingURL=selectjs.css.map */
+/*# sourceMappingURL=select-js.css.map */

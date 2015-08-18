@@ -2,7 +2,7 @@
 
 	display:inline-block;
 	line-height:inherit;
-	background-color:#AAA;
+	background-color:transparent;
 	vertical-align: middle;
 	cursor: pointer;
 	color:#fff;
@@ -12,11 +12,15 @@
 	}
 
 	&.focused{
-		background-color:#888;
+		.label{
+			background-color:#888;
+		}
 	}
 
 	&.hover{
-		background-color:#888;
+		.label{
+			background-color:#888;
+		}
 	}
 
 	&.disabled{
@@ -31,7 +35,7 @@
 		overflow: hidden;
 		white-space: nowrap;
 		position:relative;
-		background-color: inherit;
+		background-color: #AAA;
 		line-height: 1.5em;
 
 		&:after{

@@ -1,6 +1,6 @@
 {
-  "name": "selectjs",
-  "version": "1.0.0",
+  "name": "select-js",
+  "version": "0.0.1",
   "repository": "https://github.com/juancamiloestela/Select.js",
   "dependencies": {},
   "devDependencies": {

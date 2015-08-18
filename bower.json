@@ -1,6 +1,6 @@
 {
-	"name": "selectjs",
-	"version": "1.0.0",
+	"name": "select-js",
+	"version": "0.0.1",
 	"homepage": "https://github.com/juancamiloestela/Select.js",
 	"authors": [
 		
@@ -11,7 +11,7 @@
 	"description": "A minimalistic wrapper to skin select elements",
 	"main": [
 		"dist/js/select.js",
-		"dist/css/selectjs.css"
+		"dist/css/select-js.css"
 	],
 	"keywords": [
 		"select",
