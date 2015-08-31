@@ -1,15 +1,15 @@
 .selectjs {
   display: inline-block;
   line-height: inherit;
-  background-color: transparent;
+  background-color: #AAA;
   vertical-align: middle;
   cursor: pointer;
   color: #fff;
 }
-.selectjs.focused .label {
+.selectjs:focused {
   background-color: #888;
 }
-.selectjs.hover .label {
+.selectjs:hover {
   background-color: #888;
 }
 .selectjs.disabled {
@@ -23,8 +23,6 @@
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  background-color: #AAA;
-  line-height: 1.5em;
 }
 .selectjs div.label:after {
   content: '\25be';

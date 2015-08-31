@@ -2,7 +2,7 @@
 
 	display:inline-block;
 	line-height:inherit;
-	background-color:transparent;
+	background-color:#AAA;
 	vertical-align: middle;
 	cursor: pointer;
 	color:#fff;
@@ -11,16 +11,12 @@
 		
 	}
 
-	&.focused{
-		.label{
-			background-color:#888;
-		}
+	&:focused{
+		background-color:#888;
 	}
 
-	&.hover{
-		.label{
-			background-color:#888;
-		}
+	&:hover{
+		background-color:#888;
 	}
 
 	&.disabled{
@@ -35,8 +31,6 @@
 		overflow: hidden;
 		white-space: nowrap;
 		position:relative;
-		background-color: #AAA;
-		line-height: 1.5em;
 
 		&:after{
 			content: '\25be';
