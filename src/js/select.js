@@ -1,4 +1,4 @@
-/*! select-js - v0.0.1 - 2015-08-31 *//*!
+/*! select-js - v0.0.1 - 2015-09-01 *//*!
  * Select.js
  * http://www.github.com/juancamiloestela/select.js
  * MIT licensed
